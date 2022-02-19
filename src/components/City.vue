@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import db from "../firebase/firebaseinit";
+import db from "../firebase/init";
 export default {
   name: "TheCity",
   props: ["city", "edit"],
