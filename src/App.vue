@@ -35,7 +35,7 @@
 <script>
 import axios from "axios";
 import db from "./firebase/init";
-import Navigation from "./components/TheNavigation";
+import Navigation from "./components/Navigation";
 import Modal from "./components/Modal";
 export default {
   name: "App",
