@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
-import WeatherView from "../views/WeatherView.vue";
+import Weather from "../views/WeatherView.vue";
 
 const routes = [
   {
-    path: "/",
-    name: "weather",
-    component: WeatherView,
+    path: "/weather/:city",
+    name: "Weather",
+    component: Weather,
   },
 ];
 
