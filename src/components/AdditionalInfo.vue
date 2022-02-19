@@ -28,7 +28,7 @@
     </div>
     <div>
       <span>Wind</span>
-      <span>{{ Math.round(this.currentWeather.wind.speed) }}mph</span>
+      <span>{{ Math.round(this.currentWeather.wind.speed) }} mph</span>
     </div>
     <div>
       <span>Pressure</span>
